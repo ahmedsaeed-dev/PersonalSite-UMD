@@ -1,0 +1,22 @@
+INSTRUCTIONS: 
+
+* TO PUSH: 
+
+cd /Users/saeedal/Documents/School/FALL 2018/CIS 375/Assignments/term_project/Version02
+
+git add .
+
+git commit -m "current edits here"
+
+git remote -v 
+
+git push 
+
+* TO PULL:
+
+cd /Users/saeedal/Documents/School/FALL 2018/CIS 375/Assignments/term_project/Version02
+
+git pull
+
+
+

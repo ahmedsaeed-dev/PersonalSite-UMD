@@ -1,0 +1,393 @@
+
+/* BODY DEFAULT */
+body {
+  background-color: white;
+}
+
+/* TITLE */
+.title {
+  text-align: center;
+  color: black;
+  font-size: 1.25em;
+}
+
+/* TITLE ROUTE TO HOMEPAGE */
+.title-link, .title-link:hover, .title-link:visited {
+  background-color: transparent;
+  text-decoration: none;
+  color:black;
+}
+
+/* NAV SECTION */
+.menu_nav {
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+/* MENU NAV BAR */
+.menu_nav ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+}
+
+/* MENU NAV LIST */
+.menu_nav ul li {
+  float: left;
+  padding: 0 auto;
+  display: inline;
+}
+
+.menu_nav ul li a {
+  display: block;
+  margin: 0 auto;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+main {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 25px;
+  /* border: 2px solid black; */
+  padding: 5px 5px;
+  display: block;
+}
+
+h3 {
+  margin-top: -15px;
+  font-size: 1.75em;
+  text-align: center;
+}
+
+h4 {
+  margin-top: -15px;
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+#home-para {
+  font-size: 1.25em;
+  text-align: left;
+  border-style: solid;
+  border-color: #333;
+  padding: 2em 2em;
+}
+
+#main-box {
+  margin-top: 50px;
+  font-size: 1.25em;
+  text-align: left;
+  border-style: solid;
+  border-color: #333;
+  padding: 2em 1em;
+  margin-bottom: 100px;
+}
+
+#FAQs-box {
+  margin-top: 50px;
+  font-size: 1.25em;
+  text-align: left;
+  border-style: solid;
+  border-color: #333;
+  padding: 2em 1em;
+  margin-bottom: 75px;
+}
+
+label { /* next three blocks = pre-assessment */
+  display:inline-block;
+  width:200px;
+  margin-top: 10px;
+  margin-right:30px;
+  text-align:right;
+
+}
+
+input{
+  font-size: 0.75em;
+}
+
+form {
+  border:none;
+  width: 500px;
+  margin: 0px auto;
+}
+
+#begin-button {
+  position: relative;
+  text-align: center;
+  font-size: 0.75em;
+  padding: 12px 12px;
+  border-radius: 5px solid #000;
+  text-decoration: none;
+  display: inline-block;
+  border-color: #000;
+  left: 8.5%;
+}
+
+#start-button {
+  position: relative;
+  text-align: center;
+  font-size: 0.75em;
+  padding: 7px 12px;
+  border-radius: 5px solid #000;
+  text-decoration: none;
+  display: inline-block;
+  border-color: #000;
+  left: 92.5%;
+}
+
+#next-button, #back-button, #edit-button, #submit-button, #restart-button, #print-button {
+  position: relative;
+  text-align: center;
+  font-size: 0.75em;
+  padding: 7px 12px;
+  border-radius: 10px solid #000;
+  text-decoration: none;
+  display: inline-block;
+  border-color: #000;
+  margin-top: 2%;
+  top: 20px;
+  left: 42.5%;
+  margin-bottom: 2%;
+}
+
+#restart-button, #print-button {
+  position: relative;
+  text-align: center;
+  font-size: 0.75em;
+  padding: 7px 12px;
+  border-radius: 10px solid #000;
+  text-decoration: none;
+  display: inline-block;
+  border-color: #000;
+  margin-top: 2%;
+  top: 49px;
+  left: 9.5%;
+  margin-bottom: 2%;
+}
+
+#pdf-button{
+  position: relative;
+  text-align: center;
+  font-size: 22px;
+  padding: 7px 12px;
+  border-radius: 10px solid #000;
+  text-decoration: none;
+  display: inline-block;
+  border-color: #000;
+  margin-top: 2%;
+  top: 0;
+  left: 35.5%;
+  margin-bottom: 2%;
+  width: 30%;
+}
+
+#tablePages{
+  border-collapse: collapse;
+  margin-top: 2.5%;
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: 5%;
+}
+
+tr:nth-child(even) {
+  background-color: #e8e8e8;
+}
+
+td {
+  height: 55px;
+}
+
+.table-headers {
+  font-size: 1em;
+}
+
+
+.questions {
+  font-size: 0.85em;
+}
+
+.button {
+  border-radius: 2px;
+}
+
+.button:hover {
+  color: white;
+  background-color: #333;
+}
+
+
+
+.modalBtn {
+  top: 50%;
+  right: 50%;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.5);
+  top: -10px;
+}
+
+.modal-content {
+  background-color: #f4f4f4;
+  margin: 100px auto; /* positions the modal on the page */
+  width: 60%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17);
+  animation-name: modalopen;
+  animation-duration: 750ms;
+}
+
+.modal-header {
+  background: #4CAF50;
+  padding: 15px;
+  color: white;
+  font-size: 30px;
+}
+
+.modal-header h2 {
+  margin: 0;
+}
+.modal-body {
+  padding: 15px 25px;
+  font-size: 20px;
+  line-height: 1.75em;
+}
+.closeBtn {
+  color: white;
+  float: right;
+  font-size: 30px;
+}
+
+.closeBtn:hover, .closeBtn:focus{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@-webkit-keyframes modalopen{
+  from {
+    opacity: 0
+  }
+  to {
+    opacity: 1
+  }
+}
+
+#modalImage {
+
+  position: fixed;
+  bottom: 49px;
+  right: 3px;
+  cursor: pointer;
+
+}
+
+#progressbar {
+  background-color: #333;
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 3px;
+  width: 47%;
+  float: right;
+}
+
+h5 {
+  font-size: 20px;
+  margin-top: -35px;
+  margin-bottom: 7px;
+  float: right;
+  margin-right: 15%;
+}
+#progressbar>div {
+  background-color: #4CAF50;
+  /* Adjust with JavaScript */
+  height: 15px;
+  border-radius: 10px;
+}
+
+#PB_USE  {width: 5%;}
+#PB_FUNC {width: 20%;}
+#PB_RELI {width: 40%;}
+#PB_EFF  {width: 60%;}
+#PB_MAIN {width: 80%;}
+#PB_CONF {width: 95%;}
+
+/* SCROLL BAR CSS START */
+
+body::-webkit-scrollbar {
+    width: .5em;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #c0c0c0;
+  outline: 1px solid #333;
+}
+
+/* FAQS PAGE FORMATING */
+.faqs {
+  font-weight: bold;
+}
+
+.answers {
+  text-indent: 1em;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 130px;
+  right: 95px;
+  z-index: 1;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  padding: 12px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}

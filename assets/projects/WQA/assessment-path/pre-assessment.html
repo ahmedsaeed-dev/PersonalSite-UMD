@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../master.css">
+
+    <!-- TAB ICON OF UMDEARBORN -->
+    <link rel="shortcut icon" href="../images/UMDearborn-Logo.png"/>
+    <title>WQA - PRE-ASSESSMENT</title>
+  </head>
+  <body>
+
+    <!-- TITLE SECTION -->
+    <div class="title">
+      <h1> <a class="title-link" href="../wqa-home.html">Website Quality Assessor</a></h1>
+    </div>
+
+    <!-- NAV BAR -->
+    <div class="menu_nav">
+      <ul>
+        <li><a href="../wqa-home.html">Home</a></li>
+        <li><a href="pre-assessment.html"  class="active">Assessment</a></li>
+        <li><a href="../faqs.html">faqs</a></li>
+      </ul>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main id="main-box">
+
+      <!-- PRE-ASSESSMENT BOX -->
+      <article>
+        <h3>Pre-Assessment</h3>
+         <form name="pre-ass" action="category-01.html" method="GET">
+          <label id="txtFullName">Full name:</label><input id="clientName" type="text" size="25" placeholder="Full Name" required>
+          <label id="txtEmail">E-mail address:</label><input id="clientEmail" type="email" size="25" placeholder="E-mail" required>
+          <label id="txtWebsiteURL">Website URL:</label><input id="clientURL" type="text" size="25" placeholder="URL">
+
+          <!-- BEGIN ASSESSMENT BUTTON -->
+          <input id="start-button" class="button" type="submit"></input>
+        </form>
+      </article>
+    </main>
+
+    <!-- MODAL IMAGE TRIGGER -->
+    <div id="modalImage">
+      <img class="image" height="75" width="75" src="../images/help-333.png"/>
+    </div>
+
+    <!-- START MODEL CONTENT -->
+    <div id="simpleModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="closeBtn">&times;</span>
+          <h2>Helpful Information</h2>
+        </div>
+        <div class="modal-body">
+          <p>This is the Pre-Assessment page! To begin your assessment, you will need to enter your Full name and E-mail address. If you would like, you may also enter your Website URL. Once the information has been entered, it will begin the assessment.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <p>University of Michigan Dearborn &copy; 2018</p>
+    </div>
+
+    <!-- JAVASCRIPT LINKS -->
+    <script type="text/javascript" src="../main.js"></script>
+  </body>
+</html>

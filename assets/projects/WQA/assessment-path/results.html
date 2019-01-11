@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../master.css">
+
+    <!-- TAB ICON OF UMDEARBORN -->
+    <link rel="shortcut icon" href="../images/UMDearborn-Logo.png"/>
+    <title>WQA - RESULTS</title>
+  </head>
+  <body>
+
+    <!-- TITLE SECTION -->
+    <div class="title">
+      <h1> <a class="title-link" href="../wqa-home.html">Website Quality Assessor</a></h1>
+    </div>
+
+    <!-- NAV BAR -->
+    <div class="menu_nav">
+      <ul>
+        <li><a href="../wqa-home.html">Home</a></li>
+        <li><a href="pre-assessment.html"  class="active">Assessment</a></li>
+        <li><a href="../faqs.html">faqs</a></li>
+      </ul>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main id="main-box">
+      <h3>Results</h3>
+
+      <!-- TABLE BEGINS -->
+        <table>
+
+          <!-- TABLE ROW 0 -->
+          <tr class="table-headers" >
+            <th align = "left" width="50%">Category</th>
+            <th width = "-20%" align = "center">Score</th>
+            <th width = "50%" align = "center">Evaluation</th>
+          </tr >
+
+          <!-- TABLE ROW 1 -->
+          <tr>
+            <td class="questions">USABILITY</th>
+            <td align = "center" id="useScore"></td>
+            <td align = "center" id="useEval"></td>
+          </tr>
+
+          <!-- TABLE ROW 2-->
+          <tr>
+            <td class="questions">FUNCTIONALITY</th>
+              <td align = "center" id="funcScore"></td>
+              <td align = "center" id="funcEval"></td>
+          </tr>
+
+          <!-- TABLE ROW 3 -->
+          <tr>
+            <td class="questions">RELIABILITY</th>
+              <td align = "center" id="reliScore"></td>
+              <td align = "center" id="reliEval"></td>
+          </tr>
+
+          <!-- TABLE ROW 4 -->
+          <tr>
+            <td class="questions">EFFICIENCY</th>
+              <td align = "center" id="efficScore"></td>
+              <td align = "center" id="efficEval"></td>
+          </tr>
+
+          <!-- TABLE ROW 5 -->
+          <tr>
+            <td class="questions">MAINTAINABILITY</th>
+              <td align = "center" id="mainScore"></td>
+              <td align = "center" id="mainEval"></td>
+          </tr>
+
+        <!-- END TABLE -->
+        </table>
+
+        <!-- PDF Button -->
+        <button onclick="location.href='../Website-Tips.pdf'" target="_blank" id="pdf-button" class="button" type="button">Click for Tips!</button>
+
+        <!-- BACK BUTTON -->
+        <button onclick="location.href='pre-assessment.html'" id="restart-button" class="button" type="button">&orarr; Restart</button>
+
+        <!-- NEXT BUTTON -->
+        <button onclick="" id="print-button" class="button" type="button">Print &raquo;</button>
+
+    <!-- END MAIN -->
+    </main>
+
+    <!-- MODAL IMAGE TRIGGER -->
+    <div id="modalImage">
+      <img class="image" height="75" width="75" src="../images/help-333.png"/>
+    </div>
+
+    <!-- START MODEL CONTENT -->
+    <div id="simpleModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="closeBtn">&times;</span>
+          <h2>Helpful Information</h2>
+        </div>
+        <div class="modal-body">
+          <p>Congratulations you have made it to the Results page! This page will show you the results based off the selections you made throughout the assessment. The results are displayed as a percentage score and a color text to correlate with it. Red means that the category will need work done on it, orange means that the category is on the right track, and green means that the category is looking good. With the results, it will display links that correlate to the different segments of the assessment. They will help direct you to websites that have supplement information on how to improve your website. An option you will also have is to print your results and to do that you can simply click on the “Print” button. Once you are done, you may click the “Restart” button to begin the assessment again or simply click the “ASSESSMENT” tab on the navigation bar.</p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <p>University of Michigan Dearborn &copy; 2018</p>
+    </div>
+
+    <!-- JAVASCRIPT LINK -->
+    <script type="text/javascript" src="../main.js"></script>
+  </body>
+</html>

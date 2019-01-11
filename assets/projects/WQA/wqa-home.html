@@ -1,0 +1,80 @@
+<!-- If you're reading this, it's no longer December 2018. Send me an email and let me know that you've found comment. SAEEDAL@UMICH.EDU. Thanks! - Ahmed -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="master.css">
+
+    <!-- TAB ICON OF UMDEARBORN -->
+    <link rel="shortcut icon" href="images/UMDearborn-Logo.png"/>
+    <title>Website Quality Assessor</title>
+  </head>
+  <body>
+
+    <!-- TITLE SECTION -->
+    <div class="title">
+      <h1> <a class="title-link" href="wqa-home.html">Website Quality Assessor</a></h1>
+    </div>
+
+    <!-- NAV BAR -->
+    <div class="menu_nav">
+      <ul>
+        <li><a href="wqa-home.html" class="active">Home</a></li>
+        <li><a href="assessment-path/pre-assessment.html">Assessment</a></li>
+        <li><a href="faqs.html">faqs</a></li>
+      </ul>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main>
+      <!-- PLACEHOLDER -->
+      <article> </article>
+
+        <!-- INTRODUCTION -->
+        <p id="home-para">The Website Quality Assessment is a tiny tool used to measure
+          the quality of an existing or proposed website as compared to the
+          general website quality model described in Pressman and Maxim's
+          Software Engineering: A Practitioner's Approach. <br><br>
+          The Website Quality Assessment uses a Q&A format with different
+          rankings to help the user determine the quality of a given website
+          on a scale from 1 to 5, with 5 defined as Strongly Agree, 1 defined
+          as Strongly Disagree, and a choice for Non-Applicable.<br><br>
+          If you need help, click on the question mark in the bottom right hand corner! It's found on all pages! <br><br>
+          Click the Begin Assessment button to begin the assessment
+          process.
+
+          <!-- BEGIN ASSESSMENT BUTTON -->
+          <button onclick="location.href='assessment-path/pre-assessment.html'" id="begin-button" class="button" type="button">Begin Assessment</button>
+        </p>
+    </main>
+
+    <!-- MODAL IMAGE TRIGGER -->
+    <div id="modalImage">
+      <img class="image" height="75" width="75" src="images/help-333.png"/>
+    </div>
+
+    <!-- START MODEL CONTENT -->
+    <div id="simpleModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="closeBtn">&times;</span>
+          <h2>Helpful Information</h2>
+        </div>
+        <div class="modal-body">
+          <p>Welcome to the Website Quality Assessor! To begin assessing your website, you can either choose to click the “Begin Assessment” button on the home page or click the “ASSESSMENT” tab on the navigation bar. If you have any questions, please click on the “FAQS” tab on the navigation bar. </p>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <p>University of Michigan Dearborn &copy; 2018 </p>
+    </div>
+
+    <!-- JAVASCRIPT LINK -->
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
